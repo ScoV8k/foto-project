@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HeroSection() {
   return (
     <section className="hero-section">
@@ -8,12 +10,12 @@ export default function HeroSection() {
         We help you launch and grow your marketing career by learning from real people&apos;s<br />stories, strategies, and daily wins.
       </p>
       <div className="hero-actions">
-        <button className="btn-primary">
-          Join community
+        <Link href="/odkrywaj" className="btn-primary" style={{ textDecoration: 'none' }}>
+          Odkryj twórców
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-        </button>
+        </Link>
         <button className="btn-secondary">
           Contact us
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
