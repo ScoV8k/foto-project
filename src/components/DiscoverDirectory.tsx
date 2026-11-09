@@ -82,6 +82,7 @@ export default function DiscoverDirectory() {
         </Link>
         <nav className="discover-nav" aria-label="Nawigacja główna">
           <Link className="discover-nav-active" href="/odkrywaj">Odkrywaj</Link>
+          <Link href="/sesje">Sesje</Link>
           <a href="#tworcy">Społeczność</a>
           <Link href="/">Wróć na stronę główną</Link>
         </nav>

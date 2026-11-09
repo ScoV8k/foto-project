@@ -74,6 +74,13 @@ Główna wartość: w jednym miejscu można pokazać swoje portfolio, odkryć os
 - Rozszerzyć filtry wyszukiwania i preferencje dostępności.
 - Zebrać opinie użytkowników i na ich podstawie ustalić kolejne funkcje.
 
+## Stan prototypu
+
+- Dostępny jest katalog przykładowych profili z wyszukiwaniem, filtrowaniem ról, zapisywaniem ulubionych i podglądem profilu.
+- Dostępna jest tablica przykładowych sesji z filtrowaniem po mieście i poszukiwanej roli oraz formularzem tworzenia ogłoszenia.
+- Profile i ogłoszenia są na razie demonstracyjne, a własne zapisane elementy trafiają do pamięci przeglądarki. Nie ma jeszcze kont użytkowników ani wspólnej bazy danych, więc ogłoszenie nie jest widoczne na innych urządzeniach.
+- Następnym krokiem przed prawdziwym uruchomieniem współpracy jest backend z kontami, trwałym zapisem profili i projektów oraz możliwością zgłoszenia zainteresowania lub napisania do autora.
+
 ## Ważne wymagania produktu
 
 - Portfolio i profile powinny dobrze prezentować się na telefonie i komputerze.
