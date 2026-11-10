@@ -18,7 +18,7 @@ export default function NavigationBar() {
         <div className="navbar-links-group">
           <Link href="/odkrywaj" className="nav-link">Odkrywaj</Link>
           <Link href="/sesje" className="nav-link">Sesje</Link>
-          <Link href="#" className="nav-link">Career</Link>
+          <Link href="/wiadomosci" className="nav-link">Wiadomości</Link>
           <Link href="#" className="nav-link">Pricing</Link>
           <Link href="#" className="nav-link">About</Link>
           

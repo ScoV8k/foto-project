@@ -83,6 +83,7 @@ export default function DiscoverDirectory() {
         <nav className="discover-nav" aria-label="Nawigacja główna">
           <Link className="discover-nav-active" href="/odkrywaj">Odkrywaj</Link>
           <Link href="/sesje">Sesje</Link>
+          <Link href="/wiadomosci">Wiadomości</Link>
           <a href="#tworcy">Społeczność</a>
           <Link href="/">Wróć na stronę główną</Link>
         </nav>
@@ -187,6 +188,7 @@ export default function DiscoverDirectory() {
               <p>{selectedCreator.city} · Polska</p>
               <p className="profile-modal-specialty">{selectedCreator.specialty}</p>
               <span className="profile-demo-note">Przykładowy profil — treści demonstracyjne</span>
+              <Link className="profile-message-link" href={`/wiadomosci?do=${selectedCreator.id}`}>Napisz o sesji <span aria-hidden="true">↗</span></Link>
             </div>
           </section>
         </div>

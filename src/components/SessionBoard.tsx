@@ -109,6 +109,7 @@ export default function SessionBoard() {
         <nav className="discover-nav" aria-label="Nawigacja główna">
           <Link href="/odkrywaj">Odkrywaj</Link>
           <Link className="discover-nav-active" href="/sesje">Sesje</Link>
+          <Link href="/wiadomosci">Wiadomości</Link>
           <Link href="/">Wróć na stronę główną</Link>
         </nav>
         <span className="discover-profile-label"><span className="online-dot" /> Przestrzeń twórców</span>

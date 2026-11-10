@@ -78,8 +78,9 @@ Główna wartość: w jednym miejscu można pokazać swoje portfolio, odkryć os
 
 - Dostępny jest katalog przykładowych profili z wyszukiwaniem, filtrowaniem ról, zapisywaniem ulubionych i podglądem profilu.
 - Dostępna jest tablica przykładowych sesji z filtrowaniem po mieście i poszukiwanej roli oraz formularzem tworzenia ogłoszenia.
-- Profile i ogłoszenia są na razie demonstracyjne, a własne zapisane elementy trafiają do pamięci przeglądarki. Nie ma jeszcze kont użytkowników ani wspólnej bazy danych, więc ogłoszenie nie jest widoczne na innych urządzeniach.
-- Następnym krokiem przed prawdziwym uruchomieniem współpracy jest backend z kontami, trwałym zapisem profili i projektów oraz możliwością zgłoszenia zainteresowania lub napisania do autora.
+- Dostępna jest skrzynka wiadomości z rozmowami otwieranymi z profilu twórcy. Wiadomości w tym prototypie zapisują się wyłącznie lokalnie.
+- Profile i przykładowe ogłoszenia są demonstracyjne, a własne zapisane elementy trafiają do pamięci przeglądarki. Nie ma jeszcze kont użytkowników ani wspólnej bazy danych, więc profile, ogłoszenia i wiadomości nie synchronizują się między urządzeniami ani użytkownikami.
+- Następnym krokiem przed prawdziwym uruchomieniem współpracy jest backend z kontami, trwałym zapisem profili, projektów i rozmów oraz bezpiecznym dostarczaniem wiadomości do drugiej osoby.
 
 ## Ważne wymagania produktu
 
